@@ -1,0 +1,39 @@
+body{
+    background-color:hsl(212, 45%, 89%);
+    
+}
+.container{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 17rem; 
+    height: 27rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#qr-image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 7px;
+}
+.container-2{
+   
+}
+.text-container{
+    width: 15rem;
+    text-align: center;
+    row-gap: 0.5rem;
+    font-family: "Outfit";
+}
+p.highlighted{
+    
+    font-size: 1.2rem;
+    font-weight: 700
+}
+p.content{
+    font-size: 0.9rem;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
